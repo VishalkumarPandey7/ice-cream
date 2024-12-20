@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuski</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-image: url(https://img.freepik.com/premium-photo/happy-group-friends-eating-ice-cream-outdoors_470178-10804.jpg);
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: url('peppermint-chocochip.jpg') no-repeat center center/cover;
+            color: #fff;
+            background-image: url(https://media.istockphoto.com/id/509496596/photo/little-girl-eating-ice-cream.jpg?s=612x612&w=0&k=20&c=0Se4ZTRtliVJqPQTYDkdxAqBx3M2zRIILjUcXE7wMYk=);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffbb00;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 15px 20px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ffe080;
+            color: #000;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .flavors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .flavor {
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .flavor:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .flavor img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .flavor h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .flavor p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #ffbb00;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chuski</h1>
+        <p>Local Favorites, World-Class Taste!</p>
+        <p>Address: Near Station Road, Sweet Chowk, Iceberg City</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#flavors">Flavors</a>
+        <a href="#career">Career</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home">
+        <h2 style="text-align:center; font-size: 2.5rem; color: #e63946;">Welcome to Chuski</h2>
+        <p style="text-align:center; font-size: 1.5rem; color: #555;">Dive into the world of refreshing delights, where every scoop tells a story of tradition and excellence!</p>
+    </section>
+
+    <section id="flavors">
+        <h2 style="text-align:center; font-size: 2.5rem; color: #e63946;">Our Flavors</h2>
+        <div class="flavors">
+            <div class="flavor">
+                <img src="https://www.allrecipes.com/thmb/8_DOwnDZKWRteuSy-bhGudm0N68=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8314-Vanilla-Ice-Cream-gw-ddmfs-beauty-4x3-b0f065ec1e7346abb82f4b3d2ad9907b.jpg" alt="Vanilla Ice Cream">
+                <h3>Vanilla Royal</h3>
+                <p>Price: ₹60 per scoop</p>
+            </div>
+            <div class="flavor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctFQocThcWrunMqSN0DV--D0vQkAzeJT4sQ&s" alt="Chocolate Ice Cream">
+                <h3>Chocolate Carnival</h3>
+                <p>Price: ₹70 per scoop</p>
+            </div>
+            <div class="flavor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp4ZTZHz-pBeWylYSxN5zBGoLP60arKptVyw&s" alt="Strawberry Ice Cream">
+                <h3>Strawberry Bliss</h3>
+                <p>Price: ₹65 per scoop</p>
+            </div>
+            <div class="flavor">
+                <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/04/Mango-Ice-Cream-Thumbnail.jpg" alt="Mango Ice Cream">
+                <h3>Mango Majesty</h3>
+                <p>Price: ₹75 per scoop</p>
+            </div>
+            <div class="flavor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ReplEqkXLtUbcDQ6dq3kRl8k2p09Wd8MNg&s" alt="Mint Ice Cream">
+                <h3>Mint Chocolate Fiesta</h3>
+                <p>Price: ₹80 per scoop</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="career">
+        <h2 style="text-align:center; font-size: 2.5rem; color: #e63946;">Join Our Team</h2>
+        <p style="text-align:center; font-size: 1.2rem; color: #555;">Work with us and help spread the joy of ice creams across the city!</p>
+        <form style="max-width: 500px; margin: 0 auto;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 10px 0;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin: 10px 0;">
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" style="width: 100%; padding: 10px; margin: 10px 0;">
+            <button type="submit" style="width: 100%; padding: 15px; background-color: #e63946; color: white; border: none; border-radius: 5px; font-size: 1.2rem;">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2 style="text-align:center; font-size: 2.5rem; color: #e63946;">Contact Us</h2>
+        <p style="text-align:center; font-size: 1.2rem; color: #555;">We are here to serve you better!</p>
+        <p style="text-align:center; font-size: 1.2rem; color: #555;">Email: jhola@icecreamvala.com</p>
+        <p style="text-align:center; font-size: 1.2rem; color: #555;">Phone: +91 98765 43210</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chuski. Spreading smiles, one scoop at a time!</p>
+    </footer>
+</body>
+</html>
